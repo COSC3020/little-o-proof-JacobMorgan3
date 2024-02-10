@@ -18,4 +18,6 @@ might help with the notation for mathematical expressions.
 
 $f(n)\in o(g(n)) \iff \forall c>0, \exists n_0, \forall n\ge n_0: f(n) < c g(n)$
 
-n_0 = 0 
+$f(n)\in O(g(n)) \iff \exists c > 0, \exists n_0 > 0, such that f(n) \le cg(n) for all n \ge n_0$
+
+if $f(n) \in o(g(n))$ that means that $f(n)$ is strictly < than $cg(n)$ and if $f(n) \in O(g(n))$ then $f(n) \le cg(n)$ if $f(n)$ is already less than $cg(n)$ then it is obviously less than or equal to it. 
